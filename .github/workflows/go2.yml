@@ -3,7 +3,7 @@ name: Go
 on: 
   push:
     branches: 
-      - new_workflow
+      - "new_workflow"
 
 jobs:
   build:
