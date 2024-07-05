@@ -2,7 +2,8 @@ name: Go
 
 on: 
   push:
-    branches: ["new_workflow"]
+    branches: 
+      - new_workflow
 
 jobs:
   build:
